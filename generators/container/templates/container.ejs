@@ -1,0 +1,38 @@
+'use strict';
+
+import React from 'react';
+import { connect } from 'react-redux';
+
+class <%= containerName %> extends React.Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {};
+  }
+
+  componentWillMount() {
+
+  }
+
+  componentDidMount() {
+
+  }
+
+  componentWillUnmount() {
+
+  }
+
+  shouldComponentUpdate(nextProps, nextState) {
+
+  }
+
+  render() {
+    return ();
+  }
+}
+
+const stateToProps = (state, ownProps) => ({});
+
+<%= containerName %> = connect(stateToProps)(<%= containerName %>);
+
+export default <%= containerName %>;

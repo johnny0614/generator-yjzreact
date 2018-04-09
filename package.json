@@ -1,0 +1,31 @@
+{
+  "name": "generator-yjzreact",
+  "version": "0.0.1",
+  "description": "",
+  "files": [
+    "generators"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnny0614/generator-yjzreact.git"
+  },
+  "keywords": [
+    "yeoman-generator",
+    "reactjs",
+    "webpack",
+    "redux"
+  ],
+  "author": "JZ",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/johnny0614/generator-yjzreact/issues"
+  },
+  "homepage": "https://github.com/johnny0614/generator-yjzreact#readme",
+  "dependencies": {
+    "yeoman-generator": "^2.0.3"
+  }
+}
